@@ -23,9 +23,9 @@ export class AppComponent {
 
   authConfig: AuthConfig = {
 
-    issuer: 'http://localhost:9091/realms/SOA',
+    issuer: 'http://localhost:9090/realms/Soa',
     redirectUri: window.location.origin,
-    clientId: 'SOA',
+    clientId: 'Soa',
     responseType: 'code',
     scope: 'openid profile email offline_access',
     showDebugInformation: true,
